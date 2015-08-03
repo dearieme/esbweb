@@ -1,0 +1,37 @@
+% layout 'default';
+% title 'Ellesborough Silver Band';
+
+<div class="jumbotron">
+  <h1>Ellesborough Silver Band</h1>
+  <p class="lead">A friendly village band in Bucks</p>
+</div>
+
+<div class="row">
+  <div class="col-lg-4">
+    <h2>Players</h2>
+    <img src="img/Front row.JPG" class="img-rounded img-responsive">
+    <p>We have a strong focus on nurturing musicians of all abilities and
+    ages. Our current players are aged between 8 and 80 years old!</p>
+
+    <p>We welcome new players so don't be shy! See us in action in our <a
+      target="_new"
+      href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7">Gallery</a></p>
+    <p><a class="btn btn-primary" href="#" role="button">Join Us &raquo;</a></p>
+  </div>
+  <div class="col-lg-4">
+    <h2>Engagements</h2>
+    <img src="img/fete.jpg" class="img-rounded img-responsive">
+    <p>We play summer fetes, parades and formal occasions with a varied
+    repertoire including TV &amp; film music, popular classics, marches and
+    hymns. See <a href="engagements.html">our calendar</a> for upcoming engagements.</p>
+    <p><a class="btn btn-primary" href="contact.html" role="button">Book Us &raquo;</a></p>
+  </div>
+  <div class="col-lg-4">
+    <h2>Contact us</h2>
+    <img src="img/cake.jpg" class="img-rounded img-responsive">
+    <p>We rehearse under the conductorship of Graham Wells at Butlers
+    Cross Village Hall near Wendover, Buckinghamshire on Friday evenings
+    between 8pm and 10pm.</p>
+    <p><a class="btn btn-primary" href="#" role="button">Contact Us &raquo;</a></p>
+  </div>
+</div>
