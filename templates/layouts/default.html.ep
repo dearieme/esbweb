@@ -9,10 +9,10 @@
     <title><%= title %></title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/<%= $theme %>/bootstrap.css" rel="stylesheet">
 
     <!-- Local -->
-    <link href="css/esb.css" rel="stylesheet">
+    <link href="/css/esb.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
       queries -->
@@ -32,14 +32,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/">Home</a>
+        <a class="navbar-brand" href="/<%= $theme %>/">Home</a>
       </div>
 
       <div class="navbar-collapse collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7">Gallery</a></li>
-          <li><a href="engagements.html">Engagements</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="/<%= $theme %>/gallery.html">Gallery</a></li>
+          <li><a href="/<%= $theme %>/engagements.html">Engagements</a></li>
+          <li><a href="/<%= $theme %>/contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
@@ -49,7 +49,7 @@
 
       <!-- Site footer -->
       <footer class="footer">
-        <img src="img/PANO_20150718_153450.jpg" class="img-responsive">
+        <img src="/img/PANO_20150718_153450.jpg" class="img-responsive">
         <p>&copy; Ellesborough Silver Band 2015</p>
       </footer>
 
@@ -58,6 +58,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
