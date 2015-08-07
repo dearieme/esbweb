@@ -3,4 +3,45 @@
 
 <h1>Gallery</h1>
 
-<p><a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7">Gallery</a></p>
+<p><a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7">2015</a></p>
+
+<div class="row">
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Lee Flower Show</p> 
+      <img src="thumb1.jpg" alt="Lee Flower Show" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Meemog's Birthday Party</p>
+      <img src="thumb2.jpg" alt="Meemog's Birthday Party" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Opening of an envelope</p> 
+      <img src="thuumb3.jpg" alt="Opening of an envelope" style="width:150px;height:150px">
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Lee Flower Show</p> 
+      <img src="thumb1.jpg" alt="Lee Flower Show" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Meemog's Birthday Party</p>
+      <img src="thumb2.jpg" alt="Meemog's Birthday Party" style="width:150px;height:150px">
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7" class="thumbnail">
+      <p>Opening of an envelope</p> 
+      <img src="thuumb3.jpg" alt="Opening of an envelope" style="width:150px;height:150px">
+    </a>
+  </div>
+</div>

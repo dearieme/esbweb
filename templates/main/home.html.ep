@@ -2,8 +2,15 @@
 % title 'Ellesborough Silver Band';
 
 <div class="jumbotron">
-  <h1>Ellesborough Silver Band</h1>
-  <p class="lead">A friendly village band in Bucks</p>
+  <div class="row">
+    <div class="col-md-9">
+      <h1>Ellesborough Silver Band</h1>
+      <p class="lead">Your friendly village band in Bucks</p>
+    </div>
+    <div class="col-md-3">
+      <img src="/img/logo.jpg" class="img-rounded img-responsive">
+    </div>
+  </div>
 </div>
 
 <div class="row">

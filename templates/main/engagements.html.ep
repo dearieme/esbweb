@@ -1,8 +1,7 @@
 % layout 'default';
-% title 'Ellesborough Silver Band - Contact Us';
+% title 'Ellesborough Silver Band - Engagements';
 
 <h1>Engagements</h1>
 
 <!-- Embed Google calendar-->
-<iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=6nlp9il8noi5pjageevbsqkrcc%40group.calendar.google.com&amp;color=%235229A3&amp;ctz=Europe%2FLondon" style=" border-width:0 " width="500" height="600" frameborder="0" scrolling="no"></iframe>
-
+<iframe src="https://www.google.com/calendar/embed?src=6jo0e7dgmaammipp32j4pejgb4%40group.calendar.google.com&ctz=Europe/London" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
