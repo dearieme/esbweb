@@ -3,53 +3,60 @@
 
 <h1>Contact Us</h1>
 
-<div id="map-canvas"></div>
+<div class="row">
+  <div class="col-md-6">
+    <h2>To join</h2>
 
-<h2>To join</h2>
-<p>Email or call our secretary Sue Wells 01296 429327 for more
-information or simply turn up.</p>
+    <p>We rehearse under the conductorship of Graham Wells at Butlers Cross
+    Village Hall near Wendover, Buckinghamshire on Friday evenings between 8pm
+    and 10pm.</p>
+    <p><a href="mailto:abc@example.com">Email</a> or call our secretary Sue
+    Wells 01296 429327 for more information or simply turn up.</p>
 
-<ul><li><a href="https://goo.gl/photos/c5qe8kzFaiJ9vSkSA">Gallery of past events</a></li></ul>
+    <div id="map-canvas"></div>
+  </div>
 
-<p>To book or join the band please <a href="#">contact us</a></p>
-<h2>To book</h2>
-<p>Email our secretary Sue Wells with the following information
-or call 01296 429327 to discuss your ideas</p>
-<ul>
-  <li>Event Organiser</li>
-  <li>Email</li>
-  <li>Telephone</li>
-  <li>Event</li>
-  <li>Date of Event</li>
-  <li>Location</li>
-  <li>Start/end time/interval(s)</li>
-</ul>
+  <div class="col-md-6">
+    <h2>To book</h2>
+    <p>Email our secretary Sue Wells with the following information or call
+    01296 429327 to discuss your ideas</p>
+    <ul>
+      <li>Event Organiser</li>
+      <li>Email</li>
+      <li>Telephone</li>
+      <li>Event</li>
+      <li>Date of Event</li>
+      <li>Location</li>
+      <li>Start/end time/interval(s)</li>
+    </ul>
 
-<p>To perform, we need:</p>
-<ul>
-  <li>Around 15m x15m of flat ground</li>
-  <li>20 - 30 chairs (ideally without arms)</li>
-  <li>Parking (and very close drop-off points for drums/tubas)</li>
-  <li>Light refreshments are very welcome</li>
-  <li>Shelter or a wet weather cancellation plan if the venue is outdoors</li>
-</ul>
+    <p>To perform, we need:</p>
+    <ul>
+      <li>Around 15 x 15m of flat ground</li>
+      <li>20 - 30 chairs (ideally without arms)</li>
+      <li>Parking (and very close drop-off points for drums/tubas)</li>
+      <li>Light refreshments are very welcome</li>
+      <li>Shelter or a wet weather cancellation plan if the venue is
+      outdoors</li>
+    </ul>
 
-<p class="bg-info">
-<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-<strong>Please note:</strong> We usually take bookings months in
-advance but sometimes can work with just a few weeks notice. The band is
-especially busy in the summer and at Christmas time and as an amateur
-organisation, would not usually be available during the working week.</p>
+    <p class="text-warning">
+    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+    <strong>Please note:</strong> We usually take bookings months in advance
+    but sometimes can work with just a few weeks notice. The band is
+    especially busy in the summer and at Christmas time and as an amateur
+    organisation, would not usually be available during the working week.</p>
 
-<h2>Payment</h2>
-
-<p>We play for the love of making music and do not receive payment as
-individuals. Our engagement fees pay for our sheet music,
-rehearsal facilities, instruments and uniform. We aim to cater for most
-budgets and strive to provide excellent value for money. An appropriate
-fee will be quoted once we know what you want. To give you an idea,
-a 2 x 45 minute performances with 20 players and a 15 minute refreshment
-break would cost around £300 at a local venue.</p>
+    <h2>Payment</h2>
+    <p>We play for the love of making music and do not receive payment as
+    individuals. Our engagement fees pay for our sheet music,
+    rehearsal facilities, instruments and uniform. We aim to cater for most
+    budgets and strive to provide excellent value for money. An appropriate
+    fee will be quoted once we know what you want. To give you an idea,
+    a 2 x 45 minute performances with 20 players and a 15 minute refreshment
+    break would cost around £300 at a local venue.</p>
+  </div>
+</div>
 
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
