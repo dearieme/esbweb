@@ -10,8 +10,12 @@ body {
   border-top: 1px solid #eee;
 }
 
-#map-canvas {
-  width: 500px;
-  height: 400px;
-  background-color: #CCC;
+html, body, #map-canvas {
+  margin: 0;
+  padding: 0;
+  height: 400px
+}
+
+iframe {
+  max-width: 100%;
 }
