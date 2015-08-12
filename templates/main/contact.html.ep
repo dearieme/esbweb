@@ -18,8 +18,8 @@
 
   <div class="col-md-6">
     <h2>To book</h2>
-    <p>Email our secretary Sue Wells with the following information or call
-    01296 429327 to discuss your ideas</p>
+    <p><a href="mailto:abc@example.com">Email</a> our secretary Sue Wells with
+    the following information or call 01296 429327 to discuss your ideas</p>
     <ul>
       <li>Event Organiser</li>
       <li>Email</li>
@@ -47,7 +47,7 @@
     especially busy in the summer and at Christmas time and as an amateur
     organisation, would not usually be available during the working week.</p>
 
-    <h2>Payment</h2>
+    <h3>Payment</h3>
     <p>We play for the love of making music and do not receive payment as
     individuals. Our engagement fees pay for our sheet music,
     rehearsal facilities, instruments and uniform. We aim to cater for most
