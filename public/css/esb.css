@@ -1,4 +1,3 @@
-
 body {
   padding-top: 60px;
 }
@@ -10,7 +9,7 @@ body {
   border-top: 1px solid #eee;
 }
 
-html, body, #map-canvas {
+#map-canvas {
   margin: 0;
   padding: 0;
   height: 400px

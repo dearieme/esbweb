@@ -20,8 +20,9 @@
     <p>We have a strong focus on nurturing musicians of all abilities and
     ages. Our current players are aged between 8 and 80 years old!</p>
 
-    <p>We welcome new players so don't be shy! See us in action in our <a href="gallery.html">Gallery</a></p>
-    <p><a class="btn btn-primary" href="#" role="button">Join Us &raquo;</a></p>
+    <p>We welcome new players so don't be shy! See us in action in our
+      <a href="gallery.html">Gallery</a></p>
+    <p><a class="btn btn-primary" href="contact.html" role="button">Join Us &raquo;</a></p>
   </div>
   <div class="col-md-4">
     <h2>Engagements</h2>
@@ -37,6 +38,6 @@
     <p>We rehearse under the conductorship of Graham Wells at Butlers
     Cross Village Hall near Wendover, Buckinghamshire on Friday evenings
     between 8pm and 10pm.</p>
-    <p><a class="btn btn-primary" href="#" role="button">Contact Us &raquo;</a></p>
+    <p><a class="btn btn-primary" href="contact.html" role="button">Contact Us &raquo;</a></p>
   </div>
 </div>
