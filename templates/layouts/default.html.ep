@@ -8,10 +8,7 @@
       content must come *after* these tags -->
     <title><%= title %></title>
 
-    <!-- Bootstrap -->
     <link href="/css/<%= $theme %>/bootstrap.css" rel="stylesheet">
-
-    <!-- Local -->
     <link href="/css/esb.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
@@ -24,6 +21,7 @@
   </head>
 
   <body>
+    <div class="container">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
@@ -37,27 +35,33 @@
 
       <div class="navbar-collapse collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="/<%= $theme %>/gallery.html">Gallery</a></li>
-          <li><a href="/<%= $theme %>/engagements.html">Engagements</a></li>
-          <li><a href="/<%= $theme %>/contact.html">Contact</a></li>
+          <li <%== url_for eq '/gallery.html' ? 'class="active"' : '' %> >
+            <a href="/<%= $theme %>/gallery.html">Gallery</a>
+          </li>
+          <li <%== url_for eq '/engagements.html' ? 'class="active"' : '' %> >
+            <a href="/<%= $theme %>/engagements.html">Engagements</a>
+          </li>
+          <li <%== url_for eq '/contact.html' ? 'class="active"' : '' %> >
+            <a href="/<%= $theme %>/contact.html">Contact</a>
+          </li>
         </ul>
+        <p class="navbar-text navbar-right">
+        <a class="navbar-link" href="/<%= $alt_theme_link %>">Switch theme</a>
+        </p>
       </div>
     </nav>
+    </div>
 
     <div class="container">
       <%= content %>
 
-      <!-- Site footer -->
       <footer class="footer">
         <img src="/img/PANO_20150718_153450.jpg" class="img-responsive">
         <p>&copy; Ellesborough Silver Band 2015</p>
       </footer>
-
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>

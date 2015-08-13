@@ -15,6 +15,10 @@ body {
   height: 400px
 }
 
+#navbar-collapse-1 {
+  padding-right: 30px;
+}
+
 iframe {
   max-width: 100%;
 }
