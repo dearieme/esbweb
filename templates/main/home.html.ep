@@ -22,7 +22,7 @@
 
     <p>We welcome new players so don't be shy! See us in action in our
       <a href="gallery.html">Gallery</a></p>
-    <p><a class="btn btn-primary" href="contact.html" role="button">Join Us &raquo;</a></p>
+    <p><a class="btn btn-primary" href="/<%= $theme %>/contact.html" role="button">Join Us &raquo;</a></p>
   </div>
   <div class="col-md-4">
     <h2>Engagements</h2>
@@ -30,7 +30,7 @@
     <p>We play summer fetes, parades and formal occasions with a varied
     repertoire including TV &amp; film music, popular classics, marches and
     hymns. See <a href="engagements.html">our calendar</a> for upcoming engagements.</p>
-    <p><a class="btn btn-primary" href="contact.html" role="button">Book Us &raquo;</a></p>
+    <p><a class="btn btn-primary" href="/<%= $theme %>/contact.html" role="button">Book Us &raquo;</a></p>
   </div>
   <div class="col-md-4">
     <h2>Contact us</h2>
@@ -38,6 +38,6 @@
     <p>We rehearse under the conductorship of Graham Wells at Butlers
     Cross Village Hall near Wendover, Buckinghamshire on Friday evenings
     between 8pm and 10pm.</p>
-    <p><a class="btn btn-primary" href="contact.html" role="button">Contact Us &raquo;</a></p>
+    <p><a class="btn btn-primary" href="/<%= $theme %>/contact.html" role="button">Contact Us &raquo;</a></p>
   </div>
 </div>
