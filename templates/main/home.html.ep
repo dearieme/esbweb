@@ -21,7 +21,7 @@
     ages. Our current players are aged between 8 and 80 years old!</p>
 
     <p>We welcome new players so don't be shy! See us in action in our
-      <a href="gallery.html">Gallery</a></p>
+      <a href="/<%= $theme %>/gallery.html">Gallery</a></p>
     <p><a class="btn btn-primary" href="/<%= $theme %>/contact.html" role="button">Join Us &raquo;</a></p>
   </div>
   <div class="col-md-4">
@@ -29,7 +29,7 @@
     <img src="/img/fete.jpg" class="img-rounded img-responsive">
     <p>We play summer fetes, parades and formal occasions with a varied
     repertoire including TV &amp; film music, popular classics, marches and
-    hymns. See <a href="engagements.html">our calendar</a> for upcoming engagements.</p>
+    hymns. See <a href="/<%= $theme %>/engagements.html">our calendar</a> for upcoming engagements.</p>
     <p><a class="btn btn-primary" href="/<%= $theme %>/contact.html" role="button">Book Us &raquo;</a></p>
   </div>
   <div class="col-md-4">
