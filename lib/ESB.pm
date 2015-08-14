@@ -14,6 +14,7 @@ sub startup {
   $theme->route('/contact.html')->to('main#contact');
   $theme->route('/engagements.html')->to('main#engagements');
   $theme->route('/gallery.html')->to('main#gallery');
+  $theme->route('/history.html')->to('main#history');
 }
 
 1;

@@ -44,6 +44,9 @@
           <li <%== url_for eq '/contact.html' ? 'class="active"' : '' %> >
             <a href="/<%= $theme %>/contact.html">Contact</a>
           </li>
+          <li <%== url_for eq '/history.html' ? 'class="active"' : '' %> >
+            <a href="/<%= $theme %>/history.html">History</a>
+          </li>
         </ul>
         <p class="navbar-text navbar-right">
         <a class="navbar-link" href="/<%= $alt_theme_link %>">Switch theme</a>
