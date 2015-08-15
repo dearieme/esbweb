@@ -5,7 +5,7 @@ use Mojo::Base 'Mojolicious::Controller';
 sub theme {
   my $c = shift;
 
-  my $alt_theme = $c->stash('theme') eq 'default' ? 'slate' : 'default';
+  my $alt_theme = $c->stash('theme') eq 'default' ? 'darkly' : 'default';
   my $current_page = $c->url_for;
 
   $c->app->log->debug("Current page: [$current_page]");
