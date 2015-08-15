@@ -59,7 +59,7 @@
       <%= content %>
 
       <footer class="footer">
-        <img src="/img/PANO_20150718_153450.jpg" class="img-responsive">
+        <img src="/img/PANO_20150718_153450.jpg" class="img-rounded img-responsive">
         <p>&copy; Ellesborough Silver Band 2015</p>
       </footer>
     </div>
