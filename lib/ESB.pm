@@ -6,15 +6,13 @@ sub startup {
 
   my $r = $self->routes;
 
-  my $theme = $r->under('/:theme')->to('main#theme', theme => 'default');
-
-  $theme->route('/')->to('main#home');
-  $theme->route('/home.html')->to('main#home');
-  $theme->route('/index.html')->to('main#home');
-  $theme->route('/contact.html')->to('main#contact');
-  $theme->route('/engagements.html')->to('main#engagements');
-  $theme->route('/gallery.html')->to('main#gallery');
-  $theme->route('/history.html')->to('main#history');
+  $r->route('/')->to('main#home');
+  $r->route('/home.html')->to('main#home');
+  $r->route('/index.html')->to('main#home');
+  $r->route('/contact.html')->to('main#contact');
+  $r->route('/engagements.html')->to('main#engagements');
+  $r->route('/gallery.html')->to('main#gallery');
+  $r->route('/history.html')->to('main#history');
 }
 
 1;

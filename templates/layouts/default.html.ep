@@ -8,7 +8,7 @@
       content must come *after* these tags -->
     <title><%= title %></title>
 
-    <link href="/css/<%= $theme %>/bootstrap.css" rel="stylesheet">
+    <link href="/css/slate/bootstrap.css" rel="stylesheet">
     <link href="/css/esb.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
@@ -22,7 +22,7 @@
 
   <body>
     <div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-default navbar-fixed-top">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
@@ -30,29 +30,26 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="/<%= $theme %>/">Home</a>
+        <a class="navbar-brand" href="/">Home</a>
       </div>
 
       <div class="navbar-collapse collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li <%== url_for eq '/gallery.html' ? 'class="active"' : '' %> >
-            <a href="/<%= $theme %>/gallery.html">Gallery</a>
+            <a href="/gallery.html">Gallery</a>
           </li>
           <li <%== url_for eq '/engagements.html' ? 'class="active"' : '' %> >
-            <a href="/<%= $theme %>/engagements.html">Engagements</a>
+            <a href="/engagements.html">Engagements</a>
           </li>
           <li <%== url_for eq '/contact.html' ? 'class="active"' : '' %> >
-            <a href="/<%= $theme %>/contact.html">Contact</a>
+            <a href="/contact.html">Contact</a>
           </li>
           <li <%== url_for eq '/history.html' ? 'class="active"' : '' %> >
-            <a href="/<%= $theme %>/history.html">History</a>
+            <a href="/history.html">History</a>
           </li>
         </ul>
-        <p class="navbar-text navbar-right">
-        <a class="navbar-link" href="/<%= $alt_theme_link %>">Switch theme</a>
-        </p>
       </div>
-    </nav>
+      </nav>
     </div>
 
     <div class="container">
