@@ -66,4 +66,20 @@
       <img src="/img/gallery/northdean.jpg" alt="North Dean Fete" style="height:150px">
     </a>
   </div>
+  <div class="col-sm-4">
+    <a target="_new" href="https://goo.gl/photos/PhxnMp6Xp4VqJKtK7"
+       class="thumbnail">
+      <p>Cholesbury Fete</p>
+      <img src="/img/gallery/choles_bones.jpg" alt="Cholesbury Fete" style="height:150px">
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4">
+    <a target="_new" href="https://goo.gl/photos/JB5LWvXvV1a3JbGM7"
+       class="thumbnail">
+      <p>Historical Pictures</p>
+      <img src="/img/gallery/history.jpg" alt="Historical Pictures" style="height:150px">
+    </a>
+  </div>
 </div>
