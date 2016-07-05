@@ -64,7 +64,7 @@
   </div>
 </div>
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBqSMZ6R5eLscWiGher9EbKb49triP6ptk"></script>
 <script>
   function initialize() {
     var myLatlng = new google.maps.LatLng(51.755381, -0.780772);
