@@ -10,6 +10,7 @@
 
     <link href="/css/slate/bootstrap.css" rel="stylesheet">
     <link href="/css/esb.css" rel="stylesheet">
+    <link href="/img/favicon.ico" rel="icon">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media
       queries -->
@@ -21,149 +22,283 @@
   </head>
 
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1458704070821802',
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+
     <div class="container">
       <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">Home</a>
-      </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Home</a>
+        </div>
 
-      <div class="navbar-collapse collapse" id="navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li class="active" >
-            <a href="/gallery.html">Gallery</a>
-          </li>
-          <li  >
-            <a href="/engagements.html">Engagements</a>
-          </li>
-          <li  >
-            <a href="/contact.html">Contact</a>
-          </li>
-          <li  >
-            <a href="/history.html">History</a>
-          </li>
-        </ul>
-      </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li  >
+              <a href="/engagements.html">News & Events</a>
+            </li>
+            <li class="active" >
+              <a href="/gallery.html">Gallery</a>
+            </li>
+            <li  >
+              <a href="/contact.html">Contact</a>
+            </li>
+            <li  >
+              <a href="/history.html">History</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="fb-like"
+                   data-href="http://www.ellesboroughsilverband.co.uk"
+                   data-colorscheme="dark"
+                   data-layout="button_count"
+                   data-share="true"
+                   data-show-faces="true">
+              </div>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
 
     <div class="container">
       
 <h1>Gallery</h1>
-
-<p><a target="_new" href="https://goo.gl/photos/ZVsHGn6ShwKJcrdF7">2015</a></p>
-
-<div class="row">
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/YPSksGbgGVRHZ9Dx8"
-       class="thumbnail">
-      <p>Aylesbury Love Your Market Day</p>
-      <img src="/img/gallery/loveyourmarket.jpg" alt="Love Your Market" style="height:150px">
-    </a>
+<div class="panel-group" id="accordian" role="tablist"
+     aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading2016">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordian"
+           href="#collapse2016" aria-expanded="true"
+           aria-controls="collapse2016">2016</a>
+      </h4>
+    </div>
+    <div id="collapse2016" class="panel-collapse collapse in" role="tabpanel"
+         aria-labelledBy="heading2016">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/GvyPHDHprMkWr3WHA"
+               class="thumbnail">
+              <p>Memorial Concert For Ron Wells in aid of Dementia UK</p>
+              <img src="/img/gallery/dementia.jpg"
+                   alt="Memorial Concert for Ron Wells in aid of Dementia UK"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/EGEMxyGc25QVGFRj8"
+               class="thumbnail">
+              <p>Love Your Market Day at Aylesbury Market Square</p>
+              <img src="/img/gallery/loveyourmarket_2016.jpg"
+                   alt="Love Your Market Day at Aylesbury Market Square"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/dA53PLVMjMUkeA3h7"
+               class="thumbnail">
+              <p>Strawberry Tea at The Vicarage, Lacey Green</p>
+              <img src="/img/gallery/strawbs_2016.jpg"
+                   alt="Strawberry Tea at The Vicarage, Lacey Green"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/Tm3v6bKXvoTgCvH36"
+               class="thumbnail">
+              <p>Queen's 90th birthday celebration, Stoke Mandeville</p>
+              <img src="/img/gallery/hrh90_sm.jpg"
+                   alt="Queen's 90th birthday celebration, Stoke Mandeville"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/KU7WN3y9PnRxcEAP8"
+               class="thumbnail">
+              <p>Queen's 90th birthday celebration, Ellesborough</p>
+              <img src="/img/gallery/hrh90_ellesborough.jpg"
+                   alt="Queen's 90th birthday celebration, Ellesborough"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/d36FhU2drLT46xuWA"
-       class="thumbnail">
-      <p>Strawberry Tea at Lacy Green Vicarage</p>
-      <img src="/img/gallery/teapot.jpg" alt="Strawberry Tea at Lacy Green Vicarage" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/fammcjTDvZQb9j7a6"
-       class="thumbnail">
-      <p>Butlers Cross Summer Fete</p>
-      <img src="/img/gallery/butlersx.jpg" alt="Butlers Cross Summer Fete" style="height:150px">
-    </a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/t1S6fpzmHAjti8Rh6"
-       class="thumbnail">
-      <p>The Lee Flower Show</p> 
-      <img src="/img/cake.jpg" alt="The Lee Flower Show" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/xdzsZ2ngx4FGAfYS8"
-       class="thumbnail">
-      <p>Songs Of Praise, Little Kimble</p>
-      <img src="/img/gallery/praise.jpg" alt="Songs Of Praise, Little Kimble" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/iADRfwGF4Zu1wd2GA"
-       class="thumbnail">
-      <p>Monks Risborough Horticultural Show</p>
-      <img src="/img/gallery/monks_horti.jpg" alt="Monks Risborough Horticultural Show" style="height:150px">
-    </a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/EJAocdysP7xdTxCMA"
-       class="thumbnail">
-      <p>Cherry Pie Festival, The Plough, Cadsden</p>
-      <img src="/img/gallery/plough.jpg" alt="The Lee Flower Show" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/ZNSHjqXTW6qcTsxi6"
-       class="thumbnail">
-      <p>North Dean Fete</p>
-      <img src="/img/gallery/northdean.jpg" alt="North Dean Fete" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/PhxnMp6Xp4VqJKtK7"
-       class="thumbnail">
-      <p>Cholesbury Fete</p>
-      <img src="/img/gallery/choles_bones.jpg" alt="Cholesbury Fete" style="height:150px">
-    </a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/JB5LWvXvV1a3JbGM7"
-       class="thumbnail">
-      <p>Historical Pictures</p>
-      <img src="/img/gallery/history.jpg" alt="Historical Pictures" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/36qLm4yxbNZu1g2k8"
-       class="thumbnail">
-      <p>Rememberance Sunday 2015</p>
-      <img src="/img/gallery/remember.jpg" alt="Rememberance Sunday 2015" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/D8mqs8hzhNbzT1Qu5"
-       class="thumbnail">
-      <p>Stoke Mandeville Methodist Church Concert</p>
-      <img src="/img/gallery/sm_church_carols.jpg" alt="Stoke Mandeville Methodist Church Concert" style="height:150px">
-    </a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/KPd1Px64PL8Fijbj6"
-       class="thumbnail">
-      <p>Friar's Square Xmas Carols</p>
-      <img src="/img/gallery/friars_carols.jpg" alt="Friar's Square Xmas Carols" style="height:150px">
-    </a>
-  </div>
-  <div class="col-sm-4">
-    <a target="_new" href="https://goo.gl/photos/QUhHZspHYTGPyUrG8"
-       class="thumbnail">
-      <p>Little Kimble Carols By Candle Light</p>
-      <img src="/img/gallery/kimble_candles.jpg" alt="Little Kimble Carols By Candle Light" style="height:150px">
-    </a>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading2015">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordian"
+           href="#collapse2015" aria-expanded="true"
+           aria-controls="collapse2015">2015</a>
+      </h4>
+    </div>
+    <div id="collapse2015" class="panel-collapse collapse" role="tabpanel"
+         aria-labelledBy="heading2015">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/YPSksGbgGVRHZ9Dx8"
+               class="thumbnail">
+              <p>Aylesbury Love Your Market Day</p>
+              <img src="/img/gallery/loveyourmarket.jpg"
+                   alt="Love Your Market"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/d36FhU2drLT46xuWA"
+               class="thumbnail">
+              <p>Strawberry Tea at Lacy Green Vicarage</p>
+              <img src="/img/gallery/teapot.jpg"
+                   alt="Strawberry Tea at Lacy Green Vicarage"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/fammcjTDvZQb9j7a6"
+               class="thumbnail">
+              <p>Butlers Cross Summer Fete</p>
+              <img src="/img/gallery/butlersx.jpg"
+                   alt="Butlers Cross Summer Fete"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/t1S6fpzmHAjti8Rh6"
+               class="thumbnail">
+              <p>The Lee Flower Show</p> 
+              <img src="/img/cake.jpg"
+                   alt="The Lee Flower Show"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/xdzsZ2ngx4FGAfYS8"
+               class="thumbnail">
+              <p>Songs Of Praise, Little Kimble</p>
+              <img src="/img/gallery/praise.jpg"
+                   alt="Songs Of Praise, Little Kimble"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/iADRfwGF4Zu1wd2GA"
+               class="thumbnail">
+              <p>Monks Risborough Horticultural Show</p>
+              <img src="/img/gallery/monks_horti.jpg"
+                   alt="Monks Risborough Horticultural Show"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/EJAocdysP7xdTxCMA"
+               class="thumbnail">
+              <p>Cherry Pie Festival, The Plough, Cadsden</p>
+              <img src="/img/gallery/plough.jpg"
+                   alt="The Lee Flower Show"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/ZNSHjqXTW6qcTsxi6"
+               class="thumbnail">
+              <p>North Dean Fete</p>
+              <img src="/img/gallery/northdean.jpg"
+                   alt="North Dean Fete"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/PhxnMp6Xp4VqJKtK7"
+               class="thumbnail">
+              <p>Cholesbury Fete</p>
+              <img src="/img/gallery/choles_bones.jpg"
+                   alt="Cholesbury Fete"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/JB5LWvXvV1a3JbGM7"
+               class="thumbnail">
+              <p>Historical Pictures</p>
+              <img src="/img/gallery/history.jpg"
+                   alt="Historical Pictures"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/36qLm4yxbNZu1g2k8"
+               class="thumbnail">
+              <p>Remembrance Sunday</p>
+              <img src="/img/gallery/remember.jpg"
+                   alt="Remembrance Sunday"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/D8mqs8hzhNbzT1Qu5"
+               class="thumbnail">
+              <p>Stoke Mandeville Methodist Church Concert</p>
+              <img src="/img/gallery/sm_church_carols.jpg"
+                   alt="Stoke Mandeville Methodist Church Concert"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/KPd1Px64PL8Fijbj6"
+               class="thumbnail">
+              <p>Friar's Square Xmas Carols</p>
+              <img src="/img/gallery/friars_carols.jpg"
+                   alt="Friar's Square Xmas Carols"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/QUhHZspHYTGPyUrG8"
+               class="thumbnail">
+              <p>Little Kimble Carols By Candle Light</p>
+              <img src="/img/gallery/kimble_candles.jpg"
+                   alt="Little Kimble Carols By Candle Light"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
