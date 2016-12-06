@@ -69,7 +69,8 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="https://www.facebook.com/Ellesborough-Silver-Band-976721132353404/">
+              <a href="https://www.facebook.com/Ellesborough-Silver-Band-976721132353404/"
+                 target="_blank">
                 <img class="img-responsive"
                      width="24"
                      src="/img/FB-f-Logo__blue_29.png"
@@ -77,7 +78,8 @@
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/Ellesborough_SB">
+              <a href="https://twitter.com/Ellesborough_SB"
+                 target="_blank">
                 <img class="img-responsive"
                      width="24"
                      src="/img/twitter.png"
