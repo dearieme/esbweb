@@ -4,5 +4,5 @@ use strict;
 use warnings;
 
 use App::Wallflower;
-App::Wallflower->new_with_options( [ qw|-a script/esb -d output| ] )->run;
+App::Wallflower->new_with_options( [ qw|-a script/esb -d /home/scott/dev/esb_public| ] )->run;
 
