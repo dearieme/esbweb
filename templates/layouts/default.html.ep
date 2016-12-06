@@ -22,24 +22,6 @@
   </head>
 
   <body>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1458704070821802',
-          xfbml      : true,
-          version    : 'v2.6'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
     <div class="container">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="navbar-header">
@@ -69,13 +51,20 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <div class="fb-like"
-                   data-href="http://www.ellesboroughsilverband.co.uk"
-                   data-colorscheme="dark"
-                   data-layout="button_count"
-                   data-share="true"
-                   data-show-faces="true">
-              </div>
+              <a href="https://www.facebook.com/Ellesborough-Silver-Band-976721132353404/">
+                <img class="img-responsive"
+                     width="24"
+                     src="/img/FB-f-Logo__blue_29.png"
+                     alt="Find us on Facebook"></img>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/Ellesborough_SB">
+                <img class="img-responsive"
+                     width="24"
+                     src="/img/twitter.png"
+                     alt="Tweet us"></img>
+              </a>
             </li>
           </ul>
         </div>
