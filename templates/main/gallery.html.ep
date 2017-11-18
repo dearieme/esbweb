@@ -5,6 +5,98 @@
 <div class="panel-group" id="accordian" role="tablist"
      aria-multiselectable="true">
   <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading2017">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordian"
+           href="#collapse2017" aria-expanded="true"
+           aria-controls="collapse2017">2017</a>
+      </h4>
+    </div>
+    <div id="collapse2017" class="panel-collapse collapse in" role="tabpanel"
+         aria-labelledBy="heading2017">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-sm-4">
+             <a target="_new" href="https://photos.app.goo.gl/BNIl7w5gDHJGZykj1"
+               class="thumbnail">
+              <p>Remembrance 2017</p>
+              <img src="/img/gallery/2017Remembrance.jpg"
+                   alt="Remembrance 2017"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://photos.app.goo.gl/Bx1glaC5f1ft9YVq1"
+               class="thumbnail">
+              <p>Karibuni Concert Oct 2017</p>
+              <img src="/img/gallery/2017Karibuniconc.jpg"
+                   alt="Karibuni Concert Oct 2017"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+           <a target="_new" href="https://photos.app.goo.gl/gVKMK3BzJGn3Y6Nf1"
+               class="thumbnail">
+              <p>Cholesbury August 2017</p>
+              <img src="/img/gallery/2017Cholesbury.jpg"
+                   alt="Cholesbury August 2017"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+             <a target="_new" href="https://photos.app.goo.gl/wCZ8TrzFJaCNsEUH2"
+               class="thumbnail">
+              <p>Kate's Garden Party July 2017</p>
+              <img src="/img/gallery/2017Kates.jpg"
+                   alt="Kate's Garden Party July 2017"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://photos.app.goo.gl/4isR6PkRILwHEpld2"
+               class="thumbnail">
+              <p>Monks Risborough July 2017</p>
+              <img src="/img/gallery/2017Monks.jpg"
+                   alt="Monks Risborough July 2017"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+             <a target="_new" href="https://photos.app.goo.gl/aPJVx5DUP8zi5zVn2"
+               class="thumbnail">
+              <p>Fairford Leys Karibuni Fete June 2017</p>
+              <img src="/img/gallery/2017Fairfordleysp.jpg"
+                   alt="Fairford Leys Karibuni Fete June 2017"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://photos.app.goo.gl/po1kAGf9LA3VMd822"
+               class="thumbnail">
+              <p>St. Aidans Church, Little Chalfont May 2017</p>
+              <img src="/img/gallery/2017StAidans.jpg"
+                   alt="St. Aidans Church, Little Chalfont May 2017"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+           <a target="_new" href="https://photos.app.goo.gl/osBgVgXkkqCC9Tcp2"
+               class="thumbnail">
+              <p>Love Your Market Aylesbury March 2017</p>
+              <img src="/img/gallery/2017Market.jpg"
+                   alt="Love Your Market Aylesbury March 2017"
+                   style="height:150px">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading2016">
       <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordian"
@@ -12,10 +104,19 @@
            aria-controls="collapse2016">2016</a>
       </h4>
     </div>
-    <div id="collapse2016" class="panel-collapse collapse in" role="tabpanel"
+    <div id="collapse2016" class="panel-collapse collapse" role="tabpanel"
          aria-labelledBy="heading2016">
       <div class="panel-body">
         <div class="row">
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/BJ4aGB4BynKmPK37A"
+               class="thumbnail">
+              <p>Christmas concert 2016</p>
+              <img src="/img/gallery/xmas_conc_2016.jpg"
+                   alt="Christmas concert 2016"
+                   style="height:150px">
+            </a>
+          </div>
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/k95athqMZvvqoR4U6"
                class="thumbnail">
@@ -34,6 +135,8 @@
                    style="height:150px">
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/JJexiKKhUKUezytx5"
                class="thumbnail">
@@ -43,8 +146,6 @@
                    style="height:150px">
             </a>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/2F3XRey7uxMk1N1q6"
                class="thumbnail">
@@ -63,6 +164,8 @@
                    style="height:150px">
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/LMM8PQtSx4sERaueA"
                class="thumbnail">
@@ -72,8 +175,6 @@
                    style="height:150px">
             </a>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/tF9rY2gLHax1fsKz8"
                class="thumbnail">
@@ -92,6 +193,8 @@
                    style="height:150px">
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/EGEMxyGc25QVGFRj8"
                class="thumbnail">
@@ -101,8 +204,6 @@
                    style="height:150px">
             </a>
           </div>
-        </div>
-        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/dA53PLVMjMUkeA3h7"
                class="thumbnail">
@@ -121,6 +222,8 @@
                    style="height:150px">
             </a>
           </div>
+        </div>
+        <div class="row">
           <div class="col-sm-4">
             <a target="_new" href="https://goo.gl/photos/KU7WN3y9PnRxcEAP8"
                class="thumbnail">
@@ -277,6 +380,15 @@
               <p>Little Kimble Carols By Candle Light</p>
               <img src="/img/gallery/kimble_candles.jpg"
                    alt="Little Kimble Carols By Candle Light"
+                   style="height:150px">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a target="_new" href="https://goo.gl/photos/QUhHZspHYTGPyUrG8"
+               class="thumbnail">
+              <p>Poos</p>
+              <img src="/img/gallery/kimble_candles.jpg"
+                   alt="Poos"
                    style="height:150px">
             </a>
           </div>
